@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Scroll</title>
+    <script src="./gsap/gsap.min.js" defer></script>
+    <script src="./gsap/ScrollSmoother.min.js" defer></script>
+    <script src="./gsap/ScrollTrigger.min.js" defer></script>
+    <script src="./index.js" defer></script>    
+</head>
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <header class="header">
+                <div class="container">
+                    <img data-speed=".5" class="hero" src="./images/hero.png" alt="">
+                    <div data-speed=".7" class="main-header">
+                        <h1 class="header-title">creative scroll</h1>
+                    </div>
+                </div>
+               
+           </header>
+           <main>
+                <div class="container">
+                    <div class="gallery">
+                        <div data-speed="0.8" class="gallery_l">
+                            <img class="gallery_item" src="./images/work/1.jpg" alt="">
+                            <img class="gallery_item" src="./images/work/2.jpg" alt="">
+                            <div class="gallery-txt gallery_item">
+                                <h2 class="gallery-txt_t">Creative floating scroll with amazing parallax effect</h2>
+                                <p class="gallery-txt_b">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates odit</p>
+                            </div>
+                            <img class="gallery_item" src="./images/work/6.jpg" alt="">
+                        </div>
+                        <div data-speed="0.9" class="gallery_r">
+                            <div class="gallery-txt gallery_item">
+                                <h2 class="gallery-txt_t">Creative floating scroll with amazing parallax effect</h2>
+                                <p class="gallery-txt_b">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates odit</p>
+                            </div>
+                            <img class="gallery_item" src="./images/work/3.jpg" alt="">
+                            <img class="gallery_item" src="./images/work/4.jpg" alt="">
+                            <img class="gallery_item" src="./images/work/5.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+           </main>
+        </div>
+    </div>
+
+
+</body>
+</html>
